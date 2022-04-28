@@ -125,6 +125,14 @@ const Navbar = () => {
                             </h1>
                             </a>
                         ))}
+                        <Button 
+                              onClick={(e) => {
+                                e.preventDefault();
+                                window.location.href = '/connect-wallet';
+                            }}
+                        className="inline-flex justify-center px-4 py-2 text-xl font-medium text-red-900 bg-orange-100 border border-transparent rounded hover:bg-orange-200 border-orange-700">
+                          Profile
+                        </Button>
                         </nav>
                     </div>
                     </div>
