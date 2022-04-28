@@ -55,10 +55,7 @@ const Navbar = () => {
                         window.location.href = '/';
                     }}
             className="h-[2rem] flex items-center text-center text-white uppercase italic cursor-pointer"
-              alt="logo" onClick={(e) => {
-                e.preventDefault();
-                window.location.href = "/";
-              }}
+              alt="logo" 
             >
               Cross Chain Project
             </div>
@@ -88,7 +85,7 @@ const Navbar = () => {
                 {isModalOpen ? (
                 <div
                 ref={ref}
-                    className="bg-orange-400 border-[1px] border-red-100/20  fixed w-[24rem] right-0 top-0 h-[100vh] transition translate-x-[-1px] rounded-lg  text-white"
+                    className="bg-orange-400 border-[1px]  fixed w-[24rem] right-0 top-0 h-[100vh] transition translate-x-[-1px] rounded-lg  text-white"
                 >
                     <div className="pt-5 pb-6 px-5">
                     <Button
@@ -112,17 +109,17 @@ const Navbar = () => {
                         </svg>
                     </Button>
         
-                    <div className="mt-[5rem] z-10 relative">
+                    <div className="mt-[5rem] z-99 relative">
                         <nav className="grid gap-y-8">
                         {navData.map((item) => (
                             <a
                             key={item.name}
                             href={item.href}
-                            className="-m-3 p-3 flex items-center rounded-md hover:bg-orange-500 border-[1px] border-white-500/60"
+                            className="-m-3 p-3 flex items-center rounded-md hover:bg-orange-500 border-white-500/60"
                             >
-                            <h1 className="my-3 ml-3 text-3xl font-bold uppercase">
+                            <span className="my-3 ml-3 text-xl font-bold uppercase">
                                 {item.name}
-                            </h1>
+                            </span>
                             </a>
                         ))}
                         <Button 

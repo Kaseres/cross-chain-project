@@ -26,11 +26,11 @@ const MintForm = () => {
                     </div>
                     <div className="px-3 pb-6 pt-4">
                         <label class="block text-gray-700 text-xl mb-2 " for="number">
-                            จำนวน :
+                            Number Mint :
                         </label>
-                        <Input className=" border rounded w-full py-2 px-3 text-gray-700 text-center" placeholder="Number" type="number" />
+                        <Input className=" border rounded w-full py-2 px-3 text-gray-700" placeholder="Number Mint" type="number" />
                     </div>
-                    <div className="px-3 pb-6 pt-4">
+                    {/* <div className="px-3 pb-6 pt-4">
                         <label class="block text-gray-700 text-xl mb-2" for="name">
                             Chain :
                         </label>
@@ -41,7 +41,7 @@ const MintForm = () => {
                             <option>Moonbeam</option>
                             <option>Polygon</option>
                         </select>
-                    </div>
+                    </div> */}
                     <div className="px-3 pb-6 pt-4 text-center">
                         <div className="text-lg pt-2 pb-5 text-orange-500 font-bold text-center">
                             Mint Cost 0.002 ETH

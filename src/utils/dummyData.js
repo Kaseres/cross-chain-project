@@ -9,7 +9,8 @@ export default [
         addressFrom: "0xCF8e569A97C423952DdFf902375C7C76549A6A90",
         amount: "0.05",
         addressTo: "0x8aa395Ab97837576aF9cd6946C79024ef1acfdbE",
-        chain: 'Ethereum'
+        chain: 'Ethereum',
+        rarity: 'SP Legend'
     },
     {
         id: 647821598,
@@ -20,7 +21,8 @@ export default [
         addressFrom: "0xCF8e569A97C423952DdFf902375C7C76549A6A90",
         amount: "0.01",
         addressTo: "0x8aa395Ab97837576aF9cd6946C79024ef1acfdbE",
-        chain: 'Avalanche'
+        chain: 'Avalanche',
+        rarity: 'Super Rare'
     },
     {
         id: 158975346,
@@ -31,7 +33,8 @@ export default [
         addressFrom: "0xCF8e569A97C423952DdFf902375C7C76549A6A90",
         amount: "0.10",
         addressTo: "0x8aa395Ab97837576aF9cd6946C79024ef1acfdbE",
-        chain: 'Fantom'
+        chain: 'Fantom',
+        rarity: 'Common'
     },
     {
         id: 365471658,
@@ -42,7 +45,8 @@ export default [
         addressFrom: "0xCF8e569A97C423952DdFf902375C7C76549A6A90",
         amount: "0.17",
         addressTo: "0x8aa395Ab97837576aF9cd6946C79024ef1acfdbE",
-        chain: 'Moonbeam'
+        chain: 'Moonbeam',
+        rarity: 'Legend'
     },
     {
         id: 568752147,
@@ -53,7 +57,8 @@ export default [
         addressFrom: "0xCF8e569A97C423952DdFf902375C7C76549A6A90",
         amount: "0.20",
         addressTo: "0x8aa395Ab97837576aF9cd6946C79024ef1acfdbE",
-        chain: 'Polygon'
+        chain: 'Polygon',
+        rarity: 'Rare'
     },
     {
         id: 741258963,
@@ -64,6 +69,7 @@ export default [
         addressFrom: "0xCF8e569A97C423952DdFf902375C7C76549A6A90",
         amount: "3",
         addressTo: "0x8aa395Ab97837576aF9cd6946C79024ef1acfdbE",
-        chain: 'Moonbeam'
+        chain: 'Moonbeam',
+        rarity: 'Epic'
     },
 ];
