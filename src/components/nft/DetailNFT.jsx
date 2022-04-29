@@ -48,7 +48,12 @@ const DetailNFT = () => {
                         </span> Ethereum
                     </div>
                     <div className="px-3 pb-6 pt-4 text-center">
-                        <Button className={`inline-block text-xl px-4 py-2 pr-20 pl-20 leading-none border rounded-full text-white hover:border-transparent bg-orange-400 hover:bg-orange-500 mt-4 lg:mt-0 cursor-pointer`}>
+                        <Button  
+                        onClick={(e) => {
+                            e.preventDefault();
+                            window.location.href = '/nft-sell';
+                        }}
+                        className={`inline-block text-xl px-4 py-2 pr-20 pl-20 leading-none border rounded-full text-white hover:border-transparent bg-orange-400 hover:bg-orange-500 mt-4 lg:mt-0 cursor-pointer`}>
                             Sell
                         </Button>
                     </div>
