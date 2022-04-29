@@ -11,6 +11,7 @@ import ConnectWallet from './containers/wallect/ConnectWallet';
 import MyCollections from './containers/nft/Collections';
 import MintPage from './containers/nft/MintPage';
 import CollectionDetail from './containers/nft/CollectionDetail';
+import SellPrice from './containers/nft/SellPrice';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="my-collection" element={<MyCollections />} />
           <Route path="mint-nft" element={<MintPage />} />
           <Route path="collection-detail" element={<CollectionDetail />} />
+          <Route path="nft-sell" element={<SellPrice />} />
           
 
         </Routes>
